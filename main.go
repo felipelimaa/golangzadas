@@ -8,7 +8,12 @@ import (
 func main() {
 	fmt.Println("Welcome to golangzadas")
 
-	var s = []string{"h", "e", "l", "l", "o"}
+	// Leetcode
+	// Challenge 344
+	var s []string
+	s = []string{"h", "e", "l", "l", "o"}
+	leetcode.ReverseString(s)
+	s = []string{"b", "a", "n", "a", "n", "a"}
 	leetcode.ReverseString(s)
 
 	word1, word2 := "abc", "pqrs"
